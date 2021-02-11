@@ -9,5 +9,10 @@ module.exports = {
                 data: `@import "@/styles/_globalStyles.scss";`
             }
         }
+    },
+    pluginOptions: {
+        electronBuilder: {
+            nodeIntegration: true
+        }
     }
 }
